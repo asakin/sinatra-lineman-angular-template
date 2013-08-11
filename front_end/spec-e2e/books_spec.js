@@ -1,6 +1,8 @@
 var protractor = require('protractor');
 require('protractor/jasminewd');
 
+jasmine.getEnv().defaultTimeoutInterval = 15000;
+
 describe('my angular app', function () {
   var ptor;
 

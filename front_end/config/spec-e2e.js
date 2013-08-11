@@ -7,7 +7,7 @@ exports.config = {
   seleniumAddress: 'http://localhost:4444/wd/hub',
 
   capabilities: {
-    'browserName': 'chrome'
+    'browserName': 'firefox'
   },
 
   baseUrl: 'http://localhost:8000',
@@ -20,6 +20,7 @@ exports.config = {
   jasmineNodeOpts: {
     isVerbose: false,
     showColors: true,
-    includeStackTrace: true
+    includeStackTrace: true,
+    defaultTimeoutInterval: 20000
   }
 };
