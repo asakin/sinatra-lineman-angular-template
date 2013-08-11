@@ -1,0 +1,17 @@
+language: ruby
+rvm:
+  - 1.9.3
+  - 1.9.2
+  - jruby-19mode
+before_install:
+  - npm install -g lineman
+  - cd front_end 
+  - npm install
+  - lineman build
+  - cd ..
+script:
+  - bundle exec rake
+  - cd front_end
+  - lineman run &
+  - lineman spec-ci
+  - cd ..
