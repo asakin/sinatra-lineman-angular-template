@@ -1,2 +1,2 @@
-keyword-cloud [![Build Status](https://travis-ci.org/asakin/keyword-cloud.png?branch=master)](https://travis-ci.org/asakin/keyword-cloud)
+keyword-cloud [![Build Status](https://travis-ci.org/asakin/sinatra-lineman-angular-template.png?branch=master)](https://travis-ci.org/asakin/sinatra-lineman-angular-template)
 =============
