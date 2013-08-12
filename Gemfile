@@ -10,3 +10,6 @@ group :test do
   gem 'simplecov', :require => false
 end
 
+group :development do
+  gem 'foreman'
+end
